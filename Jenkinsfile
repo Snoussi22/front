@@ -9,7 +9,7 @@ stages {
     stage('Getting project from Github') {
             steps {
                 git branch : 'main' ,
-                git branch: 'main', url: 'https://github.com/Snoussi22/front.git',
+                 url: 'https://github.com/Snoussi22/front.git',
                
             }
         }

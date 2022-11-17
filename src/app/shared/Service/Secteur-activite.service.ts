@@ -6,7 +6,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class SecteurActiviteService {
-  readonly API_URL = environment.apiUrl+'secteurActivite';
+  readonly API_URL = 'http://192.168.1.13:8089/SpringMVC/secteurActivite';
 
   constructor(private httpClient: HttpClient) { }
 
